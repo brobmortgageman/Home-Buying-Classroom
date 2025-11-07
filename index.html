@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Home-Buying Classroom • Quick Intake</title>
+<meta name="description" content="A clean, mobile‑first landing page with an embedded Google Form for quick lead capture." />
+<meta property="og:title" content="Home-Buying Classroom • Quick Intake" />
+<meta property="og:description" content="Answer a few questions to get tailored mortgage options." />
+<meta property="og:type" content="website" />
+<meta name="theme-color" content="#0f766e" />
+<style>
+:root{
+--brand:#0f766e; /* teal */
+--brand-ink:#0b3b37;
+--ink:#0f172a; /* slate-900 */
+--muted:#475569; /* slate-600 */
+--bg:#f8fafc; /* slate-50 */
+--card:#ffffff;
+--ring: rgba(15,118,110,.25);
+--radius: 18px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+margin:0;
+font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+color:var(--ink);
+background:var(--bg);
+-webkit-font-smoothing:antialiased;
+text-rendering:optimizeLegibility;
+}
+.wrap{max-width:1100px;margin:0 auto;padding:24px}
+header{
+display:flex;align-items:center;justify-content:space-between;gap:16px;
+padding:12px 0 4px 0
+}
+.brand{
+display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit
+}
+.logo{
+width:38px;height:38px;border-radius:10px;background:var(--brand);display:grid;place-items:center;color:white;font-weight:700
+}
+.brand h1{font-size:18px;line-height:1.1;margin:0}
+.brand small{color:var(--muted)}
+.cta{display:inline-flex;gap:12px;align-items:center}
+.btn{
+appearance:none;border:none;border-radius:999px;padding:10px 16px;cursor:pointer;
+background:var(--ink);color:#fff;font-weight:600;box-shadow:0 6px 20px rgba(2,6,23,.15)
+}
+.btn.alt{background:var(--brand)}
+.hero{
+margin-top:12px;border-radius:var(--radius);background:linear-gradient(135deg, #e6fffa, #ffffff);
+padding:28px;border:1px solid rgba(15,118,110,.15)
+}
+.hero h2{margin:0 0 8px 0;font-size:clamp(24px,4vw,40px);line-height:1.05;color:var(--brand-ink)}
+.hero p{margin:0;color:var(--muted);font-size:clamp(16px,2.2vw,18px)}
+
+
+.grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:22px}
+@media(min-width:960px){.grid{grid-template-columns:1.05fr .95fr}}
+
+
+.card{background:var(--card);border:1px solid #e2e8f0;border-radius:var(--radius);box-shadow:0 10px 30px rgba(2,6,23,.06)}
+.card h3{margin:0 0 8px 0}
+.card .pad{padding:18px}
+
+
+.bullets{display:grid;grid-template-columns:1fr;gap:14px}
+.bullet{display:flex;gap:12px}
+.dot{width:26px;height:26px;border-radius:9px;background:var(--brand);display:grid;place-items:center;color:#fff;font-weight:700;flex:0 0 26px}
+.muted{color:var(--muted)}
+
+
+.iframe-wrap{
+position:relative;width:100%;min-height:760px;border:1px solid #e2e8f0;border-radius:var(--radius);overflow:hidden;background:#fff
+}
+.iframe-wrap iframe{
+position:relative;border:0;width:100%;height:1200px; /* adjust if your form is very long */
+}
+.safety{font-size:12px;color:var(--muted);margin-top:8px}
+
+
+footer{margin:28px 0 8px 0;color:var(--muted);font-size:14px}
+a{color:var(--brand)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<a class="brand" href="#">
+<div class="logo" aria-hidden="true">HC</div>
+</html>
